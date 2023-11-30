@@ -13,6 +13,7 @@ class TrainingPipelineConfig:
 
 training_pipeline_config:TrainingPipelineConfig = TrainingPipelineConfig() 
 
+
 @dataclass
 class DataIngestionConfig:
     data_ingestion_dir: str = os.path.join(
