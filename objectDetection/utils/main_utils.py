@@ -3,8 +3,8 @@ import sys
 import yaml
 import base64
 
-from wasteDetection.exception import AppException
-from wasteDetection.logger import logging
+from objectDetection.exception import AppException
+from objectDetection.logger import logging
 
 
 def read_yaml_file(file_path: str) -> dict:
